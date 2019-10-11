@@ -1,8 +1,10 @@
-name: Markdown Sample
+name: Browser Testing
 
 modules:
     activate:
-    - workshop-overview
-    - setup-environment
-    - exercises/01-sample-content
-    - workshop-summary
+    - test-your-browser
+    - command-execution
+    - stopping-commands
+    - copy-and-paste
+    - reloading-frames
+    - testing-complete

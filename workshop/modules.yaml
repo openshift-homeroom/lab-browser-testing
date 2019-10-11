@@ -1,12 +1,15 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
-    workshop-summary:
-        name: Workshop Summary
-        exit_sign: Finish Workshop
+    test-your-browser:
+        name: Test your Browser
+        exit_sign: Start Tests
+    command-execution:
+        name: Command Execution
+    stopping-commands:
+        name: Stopping Commands
+    copy-and-paste:
+        name: Copy and Paste
+    reloading-frames:
+        name: Reloading Frames
+    testing-complete:
+        name: Testing Complete
+        exit_sign: Delete Session
