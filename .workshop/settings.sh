@@ -1,5 +1,5 @@
 WORKSHOP_NAME=lab-browser-testing
-WORKSHOP_IMAGE=quay.io/openshifthomeroom/lab-browser-testing:1.0
+WORKSHOP_IMAGE=quay.io/openshifthomeroom/lab-browser-testing:1.1
 WORKSHOP_TITLE="Browser Testing"
 WORKSHOP_DESCRIPTION="A workshop for testing browser compatibility"
 RESOURCE_BUDGET=small
