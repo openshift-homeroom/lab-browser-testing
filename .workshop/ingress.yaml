@@ -5,3 +5,12 @@ metadata:
   annotations:
     homeroom/title: "Browser Testing"
     homeroom/description: "Workshop for testing browser compatability."
+spec:
+  rules:
+  - http:
+      paths:
+      - host: "lab-browser-testing.${CLUSTER_SUBDOMAIN}"
+        path: "/"
+        backend:
+          serviceName: spawner
+          servicePort: 8080
